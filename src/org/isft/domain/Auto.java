@@ -13,7 +13,9 @@ public class Auto {
 
 	private String Patente;
 	private String Tipo;
-
+	private int Nro_chasis;
+	private int Nro_motor;
+	
 	public Auto(){
 
 	}

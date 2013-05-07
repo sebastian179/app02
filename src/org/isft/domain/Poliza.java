@@ -23,7 +23,7 @@ public class Poliza {
 		return Nro_poliza;
 	}
 
-	public varchar getPeriodoVigencia(){
+	public String getPeriodoVigencia(){
 		return Periodo_vigencia;
 	}
 
@@ -43,7 +43,7 @@ public class Poliza {
 	 * 
 	 * @param newVal
 	 */
-	public void setPeriodoVigencia(varchar newVal){
+	public void setPeriodoVigencia(String newVal){
 		Periodo_vigencia = newVal;
 	}
 
